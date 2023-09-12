@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'Montserrat'; 
+	src: local('Montserrat'),
+		url(/font/Montserrat/Montserrat-Regular.ttf); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.navigation {
+    display: flex;
+    gap: 30px;
+}
+
+.navigation > a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
